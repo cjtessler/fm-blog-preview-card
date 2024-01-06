@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(47, 88%, 63%)
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--yellow);
+  color: var(--red);
+  font-family: 'Figtree', serif;
+  font-size: 16px;
+}
+
+.container {
+  border: 1pt black solid;
+  width: 300px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 8px 8px 0px 1px black;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.tag {
+  margin-top: 12px;
+  padding: 6px 18px;
+  width: fit-content;
+  border-radius: 12px;
+  font-weight: 800;
+  background-color: var(--yellow);
+}
+
+.date {
+  margin-top: 12px;
+  font-size: .9rem;
+  font-weight: 600px ;
+}
+
+.title {
+  margin-top: 12px;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.description {
+  margin-top: 24px;
+  color: var(--grey);
+}
+
+.container__author {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  margin-left: 12px;
+  font-weight: 800;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
